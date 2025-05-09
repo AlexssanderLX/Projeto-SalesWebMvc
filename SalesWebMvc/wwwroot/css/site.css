@@ -29,3 +29,8 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.table-header-custom {
+    background-color: #your-hex-color; /* Substitua #your-hex-color pela cor desejada */
+    color: darkorange; /* Opcional: define a cor do texto para melhor contraste */
+}
