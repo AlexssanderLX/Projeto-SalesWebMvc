@@ -30,6 +30,7 @@ namespace SalesWebMvc.Data
             Departament d3 = new Departament(3, "Fashion");
             Departament d4 = new Departament(4, "Books");
 
+
             Sellers s1 = new Sellers(1, "Bob Brown", "bob@gmail.com", 1000.0, new DateTime(1998, 4, 21), d1);
             Sellers s2 = new Sellers(2, "Maria Green", "maria@gmail.com", 3500.0, new DateTime(1979, 12, 31), d2);
             Sellers s3 = new Sellers(3, "Alex Grey", "alex@gmail.com", 2200.0, new DateTime(1988, 1, 15), d1);
